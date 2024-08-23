@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+  font-family: "Jersey 10", sans-serif;
+}
+
+.jersey {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+
+}
+.jersey-nav {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+
+}
+
+.maintitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+.sidebar {
+  /* display: flex; */
+  position: fixed;
+  left: 0;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 30px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+td {
+  font-size: 30px;
+  border: none;
+  padding: 10px;
+  vertical-align: top;
+}
+
+li {
+  font-size: 30px;
+}
+section {
+  background-color: yellow;
+}
+.article1 {
+  background-color: green;
+}
+.article2 {
+  background-color: aquamarine;
+}
+
+.article3 {
+  background-color: skyblue;
+}
+
+
+
+a {
+  text-decoration: underline; 
+  color: inherit;
+}
